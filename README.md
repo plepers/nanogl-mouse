@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/plepers/nanogl.svg?branch=master)](https://travis-ci.org/plepers/nanogl)
+[![Build Status](https://travis-ci.org/plepers/nanogl-mouse.svg?branch=master)](https://travis-ci.org/plepers/nanogl-mouse)
 
 
-# nanogl
-webgl mico framework
+# nanogl-mouse
+simple mouse staet access
 

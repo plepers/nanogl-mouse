@@ -1,14 +1,14 @@
 {
-  "name": "nanogl-renderer",
+  "name": "nanogl-mouse",
   "version": "0.1.1",
-  "description": "simple rendering shell for webgl app",
+  "description": "simple mouse state access",
   "main": "mouse.js",
   "scripts": {
     "test": "jshint *.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/plepers/nanogl-renderer.git"
+    "url": "git+https://github.com/plepers/nanogl-mouse.git"
   },
   "keywords": [
     "webgl nanogl"
@@ -16,9 +16,9 @@
   "author": "Pierre Lepers",
   "license": "GPL-2.0",
   "bugs": {
-    "url": "https://github.com/plepers/nanogl/issues"
+    "url": "https://github.com/plepers/nanogl-mouse/issues"
   },
-  "homepage": "https://github.com/plepers/nanogl#readme",
+  "homepage": "https://github.com/plepers/nanogl-mouse#readme",
   "devDependencies": {
     "jshint": "^2.9.1-rc1"
   },
