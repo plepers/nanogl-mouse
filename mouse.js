@@ -22,7 +22,7 @@ function register() {
 
   window.addEventListener( 'touchstart', onTouchStart );
   window.addEventListener( 'touchend',   onTouchEnd );
-};
+}
 
 function getMousePosition( e, res ){
   if( e.touches && e.touches[0] ) {
@@ -32,11 +32,8 @@ function getMousePosition( e, res ){
     res[0] = e.clientX;
     res[1] = e.clientY;
   }
-};
-
-function onTouchMove( e ){
-
 }
+
 
 function onMouseMove( e ){
   vCopy( mousePrevPos, mousePosition );
@@ -49,29 +46,29 @@ function onMouseMove( e ){
   mouseVelocity[1] = (mousePosition[1] - mousePrevPos[1])/dt;
 
   clearTimeout(velocityTmeout);
-  velocityTmeout = setTimeout( nullVelocity, 20 )
-};
+  velocityTmeout = setTimeout( nullVelocity, 20 );
+}
 
 function nullVelocity(){
   mouseVelocity[0] = 0;
   mouseVelocity[1] = 0;
-};
+}
 
-function onTouchStart( e ){
+function onTouchStart( ){
   isDown = true;
-};
+}
 
 function onTouchEnd( e ){
   isDown = e.touches.length > 0;
-};
+}
 
-function onMouseUp  ( e ){
+function onMouseUp  ( ){
   isDown = false;
-};
+}
 
-function onMouseDown( e ){
+function onMouseDown( ){
   isDown = true;
-};
+}
 
 register();
 
@@ -89,5 +86,5 @@ module.exports = {
     return isDown;
   }
 
-}
+};
 
